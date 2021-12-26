@@ -1,0 +1,95 @@
+<html>
+<head>
+<script type="text/javascript">
+function validateemail()
+{
+var x=document.myform.email.value;
+var y=document.myform.password.value;
+var atposition=x.indexOf("@");
+var dotposition=x.lastIndexOf(".");
+if(atposition<1||dotposition<atposition+2||dotposition+2>=x.length)
+{
+alert("Please enter a valid email address \n atposition:"+atposition+"\n dotpositon:"+dotposition);
+return false;
+}
+}
+</script>
+</head>
+<br>
+<h1 ALIGN="CENTER">Member Registration</h1>
+
+
+<body bgcolor="aqua" onload='document.form1.email.focus()'>
+<form action="reglogin.php" method="POST" name="myform" onsubmit="return validateemail();" >
+
+<table border="0" align="center">
+
+<br>
+<tbody bgcolor="yellow">
+
+
+<tr>
+
+<td><label for="name">Full Name: </label></td>
+<td><input maxlength="60" name="name" type="text" placeholder="Enter Name" /></td>
+
+</tr>
+
+
+<tr>
+<td><label for="mobile">Mobile: </label></td>
+
+<td><input maxlength="60" name="mobile" type="text" placeholder="Enter Mobile Number"/></td>
+</tr>
+
+
+<tr>
+<td><label for="gender">Gender: </label></td>
+<td><input maxlength="70" name="gender" type="text" placeholder="Enter Gender Male or Female" /></td>
+
+</tr>
+
+<tr>
+
+<td><label for="bday">Date of Birth: </label></td>
+<td><input maxlength="70" name="bday" type="text" placeholder="Enter BirthDatw YYYY/MM/DD" /></td>
+
+</tr>
+
+
+<tr>
+
+<td><label for="email">Email_Address:</label></td>
+
+<td><input maxlength="70" name="email" type="text" placeholder="Enter Valid Email" /></td>
+
+</tr>
+
+
+<tr>
+
+<td><label for="username">User_Name:</label></td>
+
+<td><input maxlength="70" name="username" placeholder="Enter Username" type="text" /></td>
+</tr>
+
+
+<tr>
+<td><label for="password">Password:</label></td>
+<td><input maxlength="70" name="password"
+type="password" placeholder="Enter Password" /></td>
+
+</tr>
+
+
+</tbody>
+
+</table>
+
+<center><input type=submit value=Register ></center><br>
+<center>Already Restered!!<a href=login.html>Sign In</a></center><br>
+<center>Go To<a href=mainpage.html>HomePage</a></center>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,123 @@
+.page
+
+   {
+
+     width:1330px;
+
+     height:auto;
+
+     border-style:groove;
+
+    }
+
+.headerpart
+
+   {
+
+     width:1324px;
+
+     height:150px;
+
+     border-style:groove;
+
+     background-color:rgb(12,100,198);
+
+   }
+
+.linkpart
+
+   {
+
+     width:1324px;
+
+     height:30px;
+
+     margin-top:5px;
+
+     border-style:groove;
+
+     background-color:rgb(12,100,198);
+
+    }
+
+.linkpart a
+
+  {
+
+     background-color:rgb(245,246,251);
+
+     text-decoration:none
+
+}
+
+.linkpart a:hover
+
+  {
+
+     background-color:rgb(245,246,251);
+
+     color:rgb(12,100,198);
+
+ }
+
+.bodypart
+
+   {
+
+     width:1324px;
+
+     height:500px;
+
+     margin-top:5px;
+
+     border-style:groove;
+
+    }
+
+     
+
+.bodypart .optionpart 
+
+  {
+
+    width:200px;
+
+     height:500px;
+
+     background-color:cyan;
+
+     border-style:groove;
+
+     display:inline-block;
+
+  }
+
+.bodypart .optionpart .important
+
+  {
+
+    width:195px;
+
+     height:30px;
+
+     background-color:red;
+
+     border-style:groove;
+
+    
+
+   }
+
+.bodypart .infopart
+
+  {
+
+   width:1111px;
+
+   height:500px;
+
+   border-style:groove;
+
+   float:right;
+
+  }

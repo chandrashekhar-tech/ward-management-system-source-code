@@ -1,0 +1,48 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="complaint.css"></link>
+</head>
+<body>
+<form action=complaint.php method=post onsubmit="myfunction()">
+<div class="page">
+<input type=button onClick="location.href='mainpage.html'" value=Logout>
+<div class="linkpart">
+&nbsp &nbsp <font color=white size=5>Complaint Form</font><br>
+&nbsp &nbsp <font color=white size=3>Please send us details about the problems you would like to report.<br>
+&nbsp &nbsp Our complaint Center will analyze your complaint and take the appropriate <br> 
+&nbsp &nbsp measures in order that the reported situation will not occur at any other <br>
+&nbsp &nbsp time in the future.<br></font>
+<br>
+&nbsp &nbsp <font size=4 style=bold color=white>Full Name:</font><br>
+&nbsp &nbsp <input type=text name=fname placeholder="Enter Full Name" size=70><br>
+<br>
+&nbsp &nbsp <font size=4 style=bold color=white>Date Of Complaint:</font><br>
+&nbsp &nbsp <input type=text name=cdate placeholder="Enter Date Of Complaint" size=70><br>
+<br>
+&nbsp &nbsp <font size=4 style=bold color=white>Create Your ID:</font><br>
+&nbsp &nbsp <input type=text name=cid placeholder="Enter Your Own Id" size=70><br>
+<br>
+&nbsp &nbsp <font size=4 style=bold color=white>Address:</font><br>
+&nbsp &nbsp <input type=text name=address placeholder="Enter Address" size=70><br>
+<br>
+&nbsp &nbsp <font size=4 style=bold color=white>Ward Number:</font><br>
+&nbsp &nbsp <input type=text name=wnumber placeholder="Enter Ward Number" size=70><br>
+<br>
+&nbsp &nbsp <font size=4 style=bold color=white>Complaint Details*</font><br>
+&nbsp &nbsp <textarea name=cdetails rows=3 cols=80></textarea><br>
+<br>
+&nbsp &nbsp <font size=4 style=bold color=white>Desired Outcome</font><br>
+&nbsp &nbsp <textarea name=cdesired rows=3 cols=80></textarea><br>
+<br>
+<center><input type="reset" value="Clear">&nbsp &nbsp &nbsp<input type="submit" value="Complaint"></center>
+</div>
+</div>
+</form>
+<script>
+function myfunction()
+{
+alert("The form is Submitted");
+}
+</script>
+</body>
+</html>

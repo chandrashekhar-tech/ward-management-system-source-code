@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="login.css"></link>
+<script type="text/javascript">
+function validatelogin()
+{
+var user=document.form1.uname.value;
+var pass=document.form1.pass.value;
+if(user==""||user==null)
+{
+alert("Name can't be Blank");
+return false;
+}
+else if(password.length<6)
+{
+alert("Password mus be at least 6 characters long.");
+return false;
+}
+}
+</script>
+
+</head>
+
+<body>
+<form action="login.php" method="post" name="form1" onSubmit="return validatelogin()">
+
+<div class="page">
+
+<div class="linkpart">
+
+<div class="member">
+
+<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<img src="member1.png" width=200 height=150><br>
+
+<center><font size=5 color=black>MEMBER LOGIN</font></center>
+
+</div>
+
+<br>
+
+<br>
+
+<br>
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<font size=4 style=bold color=white>USERNAME:</font><br>
+
+
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=uname placeholder="Enter Username" size=40><br>
+
+<br>
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<font size=4 style=bold color=white>PASSWORD:</font><br>
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=password name=upass placeholder="Enter Password" size=40>&nbsp<br>
+
+<br>
+
+<center><input type="submit" value="Sign In"></center><br>
+&nbsp &nbsp<a href="reglogin.html">Register Yourself</a>&nbsp &nbsp &nbsp &nbsp &nbsp<a href="passwd.html">Forgot Password?</a><br>
+<br>
+<center><a href="mainpage.html">Go To Homepage</a></center>
+
+</div>
+
+</div>
+</form>
+</body>
+
+</html>

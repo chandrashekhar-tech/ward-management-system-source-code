@@ -1,0 +1,43 @@
+.page
+
+   {
+
+     width:1330px;
+
+     height:700px;
+
+     border-style:groove;
+
+     background-image:url("login1.jpg");
+
+   }
+
+.page .linkpart
+
+   {
+
+     width:400px;
+
+     height:550px;
+
+     margin-top:50px;
+
+     margin-left:465px;
+
+     border-style:groove;
+
+      background-color:black;
+
+    }
+
+.page .linkpart .member
+
+  {
+
+    width:400px;
+
+    height:200px;
+
+    background-color:white;
+
+  }

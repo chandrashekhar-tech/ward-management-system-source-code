@@ -1,0 +1,22 @@
+.page
+   {
+     width:1330px;
+     height:800px;
+     border-style:groove;
+     background-image:url("back3.jpg");
+   }
+.page .linkpart
+   {
+     width:700px;
+     height:700px;
+     margin-top:50px;
+     margin-left:300px;
+     border-style:groove;
+     background-color:cmyk(0,0,0,100);
+    }
+.page .linkpart .member
+  {
+    width:550px;
+    height:200px;
+    background-color:white;
+  }

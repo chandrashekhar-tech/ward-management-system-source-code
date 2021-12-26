@@ -1,0 +1,58 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="login2.css"></link>
+
+</head>
+
+<body>
+<form action="admin.php" method="post">
+
+<div class="page">
+<center><h1>Welcome Admin</h1></center>
+<div class="linkpart">
+<font color=white >
+<br>
+&nbsp &nbsp &nbsp &nbsp<input type=radio name=option value=display>Display All Complaints<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp<input type=radio name=option value=perdisplay>Display Particular Complaint Id Data<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<font size=2 style=bold color=white>Enter Particular Complaint Id:</font><br>
+
+&nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=perdis  size=40><br>
+<br>
+&nbsp &nbsp &nbsp &nbsp<input type=radio name=option value=wardisplay>Display Particular Ward Complaints <br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<font size=2 style=bold color=white>Enter Ward No:</font><br>
+
+&nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=wardis  size=40><br>
+<br>
+&nbsp &nbsp &nbsp &nbsp<input type=radio name=option value=update>Solved Complaint Update<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<font size=2 style=bold color=white>Enter Particular Complaint Id: </font><br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=perdis1  size=40><br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<font size=2 style=bold color=white>Enter Status of Completion: </font><br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=status  size=40><br>
+<br>
+&nbsp &nbsp &nbsp &nbsp<input type=radio name=option value=regdisplay>Display Registered User<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp<input type=radio name=option value=deluser>Delete Unwanted User<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<font size=2 style=bold color=white>Enter Particular UserName: </font><br>
+&nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=delete  size=40><br>
+
+</font>
+
+<br>
+
+<center><font size=3 align=right><input type=button onClick="location.href='mainpage.html'" value="LogOut" />&nbsp &nbsp &nbsp<input type="submit" value="Display"></font></center>
+
+</div>
+
+</div>
+</form>
+</body>
+
+</html>
+
